@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="app.js"></script>
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+        }
+
+        main {
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        #eyes,
+        #eyes img {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <img id="anchor" src="morty.png" style="filter: hue-rotate(90);">
+        <div id="eyes">
+            <img class="eye" src="eye.png" style="top:34px; right:30px;">
+            <img class="eye" src="eye.png" style="top:44px; right:87px;"">
+            <img class=" eye" src="eye.png" style="bottom: 59px;left: 27px;">
+            <img class="eye" src="eye.png" style="bottom: 60px; left: 75px;">
+        </div>
+    </main>
+</body>
+
+</html>
